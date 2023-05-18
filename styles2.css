@@ -1,0 +1,54 @@
+:root {
+  --cor-pagina: #0CA789;
+}
+.card .titulo {
+  margin: 0;
+}
+.card{
+  padding: 0 10px;
+}
+h1.titulo {
+  font-size: 28px;
+  border-bottom: 2px dotted #0CA789;
+}
+a {
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+}
+div {
+  width: 500px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 3px var(--cor-pagina) ridge;
+}
+div:nth-child(even) {
+  background-color: var(--cor-pagina);
+  color: white;
+
+}
+div.formatdiv1:hover {
+  transform: scale(1.1);
+}
+.pendentes{
+  background-color: #8FD14F;
+  color: white;
+}
+.concluidas{
+  background-color: var(--cor-pagina);
+  color: white;
+} 
+.excluidas{
+  background-color: #EB4045;
+  color: white;
+}
+ul{
+  text-align: center;
+  padding: 0px;  
+}
